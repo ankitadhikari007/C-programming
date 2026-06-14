@@ -234,7 +234,7 @@ pluto = Entity(model='sphere', scale=0.28, texture='textures/plutomap1k.jpg')
 saturn_ring = create_saturn_ring_with_texture()
 
 # CREATE ORBITS WITH DIRECT COLOR NAMES
-orbit_mercury = create_orbit(2, color.gray, 2)
+orbit_mercury = create_orbit(2.2, color.gray, 2)
 orbit_venus   = create_orbit(2.8, color.orange, 2)
 orbit_earth   = create_orbit(3.6, color.blue, 2)
 orbit_mars    = create_orbit(4.4, color.red, 2)
